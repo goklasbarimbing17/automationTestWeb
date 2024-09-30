@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginValid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>de5545e5-2e79-4de5-805c-c855c2ebcb54</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>1a7bf2ce-3d95-483b-bb82-520ef40cda86</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/loginData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>1a7bf2ce-3d95-483b-bb82-520ef40cda86</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>0f2c6a8d-7dd3-4489-a51d-d7224347b065</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>1a7bf2ce-3d95-483b-bb82-520ef40cda86</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>1c6c8fe7-29d8-4555-a2d7-964a5ad9dc40</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>0f2c6a8d-7dd3-4489-a51d-d7224347b065</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</defaultValue>
+      <description></description>
+      <id>1c6c8fe7-29d8-4555-a2d7-964a5ad9dc40</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

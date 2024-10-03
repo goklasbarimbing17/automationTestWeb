@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Medicaid_programs</name>
+   <name>textarea_Comment_comment</name>
    <tag></tag>
-   <elementGuidId>06cd6842-e4a7-44aa-b1a7-1992327a1585</elementGuidId>
+   <elementGuidId>3172a92a-3802-44a2-8137-d95e7951f376</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#radio_program_medicaid</value>
+         <key>XPATH</key>
+         <value>//textarea[@id='txt_comment']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='radio_program_medicaid']</value>
+         <key>CSS</key>
+         <value>#txt_comment</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Medicaid&quot;i</value>
+         <value>internal:attr=[placeholder=&quot;Comment&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,79 +28,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>c636ff48-b722-4367-a65c-71eeae7b8490</webElementGuid>
+      <value>textarea</value>
+      <webElementGuid>6d68ad8f-5b92-4280-ae97-b93bb0864dea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>class</name>
       <type>Main</type>
-      <value>radio</value>
-      <webElementGuid>827bf12a-00d0-45f0-b2e0-b61ee4670a75</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>programs</value>
-      <webElementGuid>151719ae-8ffc-4987-b517-f2a9a693d952</webElementGuid>
+      <value>form-control</value>
+      <webElementGuid>65349085-f17d-4b50-8d30-ca1038135b81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>radio_program_medicaid</value>
-      <webElementGuid>cd1371d6-ec2f-42da-b0df-c3dd0cbb7124</webElementGuid>
+      <value>txt_comment</value>
+      <webElementGuid>bf4e18bc-68bb-4514-a231-9d8a76f8ede2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>comment</value>
+      <webElementGuid>77fdd4b7-119d-448d-a7fe-2b79e8ac9b21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Comment</value>
+      <webElementGuid>9ad73393-84e6-4d49-807a-961398785650</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>rows</name>
       <type>Main</type>
-      <value>Medicaid</value>
-      <webElementGuid>110df1db-73fe-4593-9b2e-a1b951aa4b01</webElementGuid>
+      <value>10</value>
+      <webElementGuid>e8fb41f5-c62d-4e6d-89e3-7dc81e27bdb8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;radio_program_medicaid&quot;)</value>
-      <webElementGuid>c6e48341-3531-4da2-aa96-e883632a9bd2</webElementGuid>
+      <value>id(&quot;txt_comment&quot;)</value>
+      <webElementGuid>41217876-b75d-454c-885b-80ee8b765b69</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='radio_program_medicaid']</value>
-      <webElementGuid>0a0d983f-e04b-4a9a-804f-191adbba14f0</webElementGuid>
+      <value>//textarea[@id='txt_comment']</value>
+      <webElementGuid>8d93cbde-14cb-4da8-b96b-825321d666d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='appointment']/div/div/form/div[3]/div/label[2]/input</value>
-      <webElementGuid>6c9af011-146e-4407-ae7c-3a11791ad927</webElementGuid>
+      <value>//section[@id='appointment']/div/div/form/div[5]/div/textarea</value>
+      <webElementGuid>eeaeb423-05ab-4dfc-8598-72ca20f7bf2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//label[2]/input</value>
-      <webElementGuid>20281ed0-eb58-4e10-a2e3-e29fc0326b92</webElementGuid>
+      <value>//textarea</value>
+      <webElementGuid>bb2e3d1a-2a6a-4ab6-8e6e-6464fcd15d8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'radio' and @name = 'programs' and @id = 'radio_program_medicaid']</value>
-      <webElementGuid>a51c2d9d-1df0-4462-b6f4-feedebcb6b06</webElementGuid>
+      <value>//textarea[@id = 'txt_comment' and @name = 'comment' and @placeholder = 'Comment']</value>
+      <webElementGuid>9d7559cf-9794-4ecd-b009-c18741066f48</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

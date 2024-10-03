@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Comment_comment</name>
+   <name>input_Demo account_form-control</name>
    <tag></tag>
-   <elementGuidId>98c9b43d-6963-44b3-ade8-77df6085d1dd</elementGuidId>
+   <elementGuidId>86222ee6-1b82-4fbf-a356-305b54fe85d2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#txt_comment</value>
+         <key>XPATH</key>
+         <value>//input[@value='John Doe']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id='txt_comment']</value>
+         <key>CSS</key>
+         <value>input.form-control</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Comment&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Username&quot;i] >> nth=0</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,8 +28,16 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>textarea</value>
-      <webElementGuid>48fd2bce-4dc6-4862-8a75-8edcaa92e438</webElementGuid>
+      <value>input</value>
+      <webElementGuid>c0a075e2-d8b2-430f-b6dc-41e13e243e64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>fd6f945d-87f3-4ca2-8778-40b1072e52a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,78 +45,70 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>e0e8e3d5-ee08-47d5-8d89-1b9aa5290d7a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>txt_comment</value>
-      <webElementGuid>17f383a7-3a04-44c2-9f50-c70d226875fd</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>comment</value>
-      <webElementGuid>46642ef2-fa83-4b94-9054-4fe3333dfa12</webElementGuid>
+      <webElementGuid>4cdc470c-dc20-402f-91a7-ee1e0e1af10c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Comment</value>
-      <webElementGuid>399dd462-281f-4f91-935f-8ad268f05d1f</webElementGuid>
+      <value>Username</value>
+      <webElementGuid>99728d41-d60d-4175-bf54-eb1265a67bfc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>rows</name>
+      <name>aria-describedby</name>
       <type>Main</type>
-      <value>10</value>
-      <webElementGuid>3772f0df-d02d-41b4-a46f-2837257bf8bd</webElementGuid>
+      <value>demo_username_label</value>
+      <webElementGuid>fa0dce8f-1227-4b70-8f6d-4499b7c2a15a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>John Doe</value>
+      <webElementGuid>7f1dff11-aa17-4a8c-83cf-9169afdc9dc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;txt_comment&quot;)</value>
-      <webElementGuid>ae572960-7382-4c91-b310-dedebdd7024d</webElementGuid>
+      <value>id(&quot;login&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-offset-3 col-sm-6&quot;]/form[@class=&quot;form-horizontal&quot;]/div[@class=&quot;alert alert-info&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-8&quot;]/div[@class=&quot;input-group&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <webElementGuid>32d4bc67-cf57-447f-b088-43db6dde9e68</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@id='txt_comment']</value>
-      <webElementGuid>6d917a6b-bc97-43ef-8a4a-5b30eef77d12</webElementGuid>
+      <value>//input[@value='John Doe']</value>
+      <webElementGuid>d824769f-5c5a-46c9-916f-f437506300f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='appointment']/div/div/form/div[5]/div/textarea</value>
-      <webElementGuid>91357219-774b-4998-a344-027db610816f</webElementGuid>
+      <value>//section[@id='login']/div/div/div[2]/form/div/div/div/div/input</value>
+      <webElementGuid>9eafca14-7624-4230-9498-259003a4c65a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//textarea</value>
-      <webElementGuid>fd825523-5aa6-415c-8a8e-52203581e06c</webElementGuid>
+      <value>//input</value>
+      <webElementGuid>39bc4cf2-1511-43b4-a0bc-667163f9238c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//textarea[@id = 'txt_comment' and @name = 'comment' and @placeholder = 'Comment']</value>
-      <webElementGuid>26e58179-de88-47de-bd88-df61e1677366</webElementGuid>
+      <value>//input[@type = 'text' and @placeholder = 'Username']</value>
+      <webElementGuid>76f26fa3-206a-4f47-be4d-e58d5b919e63</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

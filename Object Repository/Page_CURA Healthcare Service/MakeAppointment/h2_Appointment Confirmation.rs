@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Demo account_demo_password_label</name>
+   <name>h2_Appointment Confirmation</name>
    <tag></tag>
-   <elementGuidId>041379b0-ba92-4ab6-94a1-93490d8758a1</elementGuidId>
+   <elementGuidId>10fe9348-dfee-441e-9e35-1b981a92d967</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#demo_password_label</value>
+         <key>XPATH</key>
+         <value>//section[@id='summary']/div/div/div/h2</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@id='demo_password_label']</value>
+         <key>CSS</key>
+         <value>h2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#demo_password_label</value>
+         <value>internal:role=heading[name=&quot;Appointment Confirmation&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,95 +28,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>40594200-adb2-49c9-a627-4acc74348bc8</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>input-group-addon</value>
-      <webElementGuid>be437e4a-1a55-47de-9fdb-d1d1b45e1cc1</webElementGuid>
+      <value>h2</value>
+      <webElementGuid>91bdc1ce-9934-40c3-8ef0-adf1d87daa1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>text</name>
       <type>Main</type>
-      <value>demo_password_label</value>
-      <webElementGuid>777ba64e-a2c3-4ee8-849e-fca6fcd223bd</webElementGuid>
+      <value>Appointment Confirmation</value>
+      <webElementGuid>709850de-5c7d-4304-8fd8-c590cde24cec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;demo_password_label&quot;)</value>
-      <webElementGuid>846dc047-744b-4ee5-9032-1c808b5ea8ef</webElementGuid>
+      <value>id(&quot;summary&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 text-center&quot;]/h2[1]</value>
+      <webElementGuid>37c15f08-4dc7-4ca5-be1a-912445a249ec</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//span[@id='demo_password_label']</value>
-      <webElementGuid>8781622d-ce56-4046-ba05-f2cd20e46b89</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='login']/div/div/div[2]/form/div/div[2]/div/div/span</value>
-      <webElementGuid>1a0408dd-aa9b-45fd-9351-b2d4c31c4a75</webElementGuid>
+      <value>//section[@id='summary']/div/div/div/h2</value>
+      <webElementGuid>3e90aac2-cbc4-4526-990f-e1c21cecdcd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Demo account'])[1]/following::span[3]</value>
-      <webElementGuid>df48d462-e4c9-4dbc-a684-dc1010b0b80a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Make Appointment'])[1]/following::h2[1]</value>
+      <webElementGuid>e57e9c30-8b38-4669-9eb0-4a227113e012</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[2]/following::span[3]</value>
-      <webElementGuid>67d065c1-d4fa-4aac-8c57-0603cc022a77</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='We Care About Your Health'])[1]/following::h2[1]</value>
+      <webElementGuid>69c3f122-951d-4216-90a8-117b7a9bd532</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/preceding::span[2]</value>
-      <webElementGuid>53e03a5e-24c4-4cd2-8a80-5b25928cd028</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facility'])[1]/preceding::h2[1]</value>
+      <webElementGuid>8e481951-3152-4651-a857-3770155fe127</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::span[2]</value>
-      <webElementGuid>d3d1b75e-72f5-4e77-8727-a0e9254d7ee4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apply for hospital readmission'])[1]/preceding::h2[1]</value>
+      <webElementGuid>8f56cac0-31e7-43e5-a6d5-8aa6e728074e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Appointment Confirmation']/parent::*</value>
+      <webElementGuid>3333f3d8-172e-44a8-bf36-7c8ba8b37b00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/span</value>
-      <webElementGuid>ca47e368-00a7-4af1-89b6-67a77e8b3219</webElementGuid>
+      <value>//h2</value>
+      <webElementGuid>8c41f8ae-f908-46f5-870a-f16024a9d2de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[@id = 'demo_password_label']</value>
-      <webElementGuid>e674e217-c101-48c3-821c-befe1a78ec21</webElementGuid>
+      <value>//h2[(text() = 'Appointment Confirmation' or . = 'Appointment Confirmation')]</value>
+      <webElementGuid>be8565a0-a004-448a-874e-a4bd0bf461a3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

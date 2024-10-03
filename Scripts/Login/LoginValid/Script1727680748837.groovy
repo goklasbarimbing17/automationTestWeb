@@ -17,18 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/LoginPage/input_Username_username'), username)
+	
+// Set password dari test data (pastikan password dienkripsi di test data jika menggunakan setEncryptedText)
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/LoginPage/input_Password_password'), password)
+	
+// Klik tombol login
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/LoginPage/button_Login'))
 
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/profile.php#login')
-
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), GlobalVariable.username)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), GlobalVariable.password)
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
-
-WebUI.verifyTextPresent('Make Appointment', false)
-
-
+if (typeTest.equals('Invalid')) {
+	WebUI.verifyTextPresent('Login failed! Please ensure the username and password are valid.', true)
+} else {
+	WebUI.verifyTextPresent('CURA Healthcare Service', true)
+}

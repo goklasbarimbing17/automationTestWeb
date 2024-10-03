@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LoginValid</name>
+   <name>AppointmentPage</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>de5545e5-2e79-4de5-805c-c855c2ebcb54</testCaseGuid>
+   <testCaseGuid>fb77a2a0-16c1-49a1-b07b-107c062d26d0</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0f2c6a8d-7dd3-4489-a51d-d7224347b065</variableId>
+      <variableId>c773ff10-9c0e-40c5-a6ff-9f6514e39903</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>1c6c8fe7-29d8-4555-a2d7-964a5ad9dc40</variableId>
+      <variableId>a00bd7f6-abda-47a1-a486-440d7ba4d473</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>1599e2a5-5537-4dea-8a98-a501ac023946</variableId>
+      <variableId>42fd9ef6-cf1a-4d87-93f2-7324c74953ae</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'John Doe'</defaultValue>
+      <defaultValue>'Tokyo CURA Healthcare Center'</defaultValue>
       <description></description>
-      <id>0f2c6a8d-7dd3-4489-a51d-d7224347b065</id>
+      <id>c773ff10-9c0e-40c5-a6ff-9f6514e39903</id>
       <masked>false</masked>
-      <name>username</name>
+      <name>facility</name>
    </variable>
    <variable>
-      <defaultValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</defaultValue>
+      <defaultValue>'ini adalah comment'</defaultValue>
       <description></description>
-      <id>1c6c8fe7-29d8-4555-a2d7-964a5ad9dc40</id>
+      <id>a00bd7f6-abda-47a1-a486-440d7ba4d473</id>
       <masked>false</masked>
-      <name>password</name>
+      <name>comment</name>
    </variable>
    <variable>
-      <defaultValue>'Valid'</defaultValue>
+      <defaultValue>'valid'</defaultValue>
       <description></description>
-      <id>1599e2a5-5537-4dea-8a98-a501ac023946</id>
+      <id>42fd9ef6-cf1a-4d87-93f2-7324c74953ae</id>
       <masked>false</masked>
       <name>typeTest</name>
    </variable>

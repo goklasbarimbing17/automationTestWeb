@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>MakeAppointmentPage</name>
+   <name>OpenURL</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>610850af-9d4f-4843-b555-ae08131e718f</testCaseGuid>
+   <testCaseGuid>2bba0d02-e86f-472b-b85b-d4295b7c4318</testCaseGuid>
 </TestCaseEntity>
